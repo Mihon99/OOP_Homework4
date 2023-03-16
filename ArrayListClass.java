@@ -26,7 +26,7 @@ public class ArrayListClass<T> {
         System.out.print("[");
         for (int i = 0; i < this.getLength(); i++) {
             if (i != this.getLength() - 1)
-                System.out.print(this.data[i] + ",");
+                System.out.print(this.data[i] + ", ");
             else
                 System.out.print(this.data[i]);
         }
